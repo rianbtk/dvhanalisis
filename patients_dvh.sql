@@ -1,0 +1,19 @@
+CREATE TABLE `patients_dvh` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `medical_record_number` VARCHAR(50) NOT NULL,
+  `patient_name` VARCHAR(100) NOT NULL,
+  `prescription_dose` FLOAT NOT NULL COMMENT 'dalam cGy atau Gy',
+  `total_ptv_volume` FLOAT DEFAULT NULL,
+  `d2` FLOAT DEFAULT NULL,
+  `d98` FLOAT DEFAULT NULL,
+  `d50` FLOAT DEFAULT NULL,
+  `v95` FLOAT DEFAULT NULL,
+  `homogeneity_index` FLOAT DEFAULT NULL,
+  `conformity_index` FLOAT DEFAULT NULL,
+  `rt_dose_file` VARCHAR(255) DEFAULT NULL,
+  `rt_struct_file` VARCHAR(255) DEFAULT NULL,
+  `dvh_image` VARCHAR(255) DEFAULT NULL,
+  `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,70 @@
+CRITICAL - 2026-11-09 00:44:01 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 00:44:29 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 01:23:23 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 01:24:28 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 01:42:03 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 01:42:12 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/1]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('1')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
+CRITICAL - 2026-11-09 01:43:31 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: patients/export/2]
+in APPPATH\Controllers\PatientController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->exportExcel('2')
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')

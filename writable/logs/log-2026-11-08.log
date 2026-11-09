@@ -1,0 +1,51 @@
+ERROR - 2026-11-08 15:55:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\dcmanalis\system\Database\MySQLi\Connection.php:210
+Stack trace:
+#0 C:\laragon\www\dcmanalis\system\Database\MySQLi\Connection.php(210): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\laragon\www\dcmanalis\system\Database\BaseConnection.php(549): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\dcmanalis\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\dcmanalis\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\dcmanalis\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\dcmanalis\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\dcmanalis\app\Controllers\PatientController.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\dcmanalis\system\CodeIgniter.php(972): App\Controllers\PatientController->index()
+#8 C:\laragon\www\dcmanalis\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+#9 C:\laragon\www\dcmanalis\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\dcmanalis\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\dcmanalis\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\dcmanalis\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon\www\dcmanalis\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\dcmanalis\system\Database\MySQLi\Connection.php:240
+Stack trace:
+#0 C:\laragon\www\dcmanalis\system\Database\BaseConnection.php(549): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\dcmanalis\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\dcmanalis\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\dcmanalis\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\dcmanalis\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\dcmanalis\app\Controllers\PatientController.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\dcmanalis\system\CodeIgniter.php(972): App\Controllers\PatientController->index()
+#7 C:\laragon\www\dcmanalis\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+#8 C:\laragon\www\dcmanalis\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\dcmanalis\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\dcmanalis\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\dcmanalis\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\dcmanalis\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2026-11-08 15:55:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `patients_dvh`', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PatientController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PatientController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\dcmanalis\\public\\index.php')
